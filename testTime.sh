@@ -20,6 +20,5 @@ fi
 
 [ -x time ] || error "ERROR: time not found or not executable."
 
-# If everything went fine, cleanup and give exit code 0, signifying everything is coolin'
 cleanup
 exit 0
